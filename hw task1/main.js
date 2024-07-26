@@ -50,10 +50,16 @@ temperature1 * 1.8 + 32;
 ///task22
 let fruits = ["apple","banana"]
 fruits.push("orange");
-
-
-
-
+///task23
+const person = {name:"daniel", age:20};
+person.city = "kfar saba";
+///task24
+let count = 5;
+count -=1;
+///task25
+let greeting = "Good"
+greeting += " morning"
+console.log(greeting)
 
 
 
