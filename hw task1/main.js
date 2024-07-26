@@ -36,6 +36,20 @@ let increment = counter++;
 let message = "Hello";
 message = "Hello, World!";
 ///task18
+let myVariable = 42;
+myVariable = "fory-two"
+///task19
+let totalCost = 50;
+totalCost +=10;
+///task20
+let username1 = "user1";
+username1 = "admin";
+///task21
+let temperature1 = 20;
+temperature1 * 1.8 + 32;
+///task22
+let fruits = ["apple","banana"]
+fruits.push("orange");
 
 
 
