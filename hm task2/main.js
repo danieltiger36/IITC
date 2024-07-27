@@ -38,6 +38,34 @@ orange';
 let meters = 3;
 toString(meters);
 ///task16
+/// object
+///task17
+///const
+///task18
+///its convert tge string to number you can handle this by toString()
+///task19
+///boolean because its can be true or false 
+///task20
+///using / between the character 
+///task21
+///var is have many unexpected problomes, let can be change is value, const cant change is value
+///task22
+///using operator (===) 
+///task23
+/// 15 in number date
+///task24
+/// = false / = true boolean is a switch that can be true or false 
+///task25
+///primitive can hold only 1 value while objects can hold many primitive date types and values
+
+
+
+
+
+
+
+
+
 
 
 
