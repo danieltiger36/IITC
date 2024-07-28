@@ -23,3 +23,35 @@ console.log("hello")
 ///for(i = 0; i < 6; i ++){
 //    console.log("*".repeat (i));
 //}
+///the while loop
+//let secretNumber = 7;
+//let userGuess = prompt ("type somthing")
+//let totalGuess = 0;
+//while (userGuess !== secretNumber && totalGuess < 3); {
+ //  userGuess = Number(prompt("Guess the number (1-10")) 
+ //  totalGuess++
+ //  console.log(totalGuess)
+//}
+///task4
+//let i = 1;
+//while (i <= 100) {
+//    console.log(i);
+//    i = i*2
+
+//}
+///the do.. while loop
+//let i = 0;
+//do {i ++
+//    console.log(i)
+//}
+//while (i <5);
+//do{
+//let = play again = prompt(`i want to play again?`)
+//console.log(play again)
+//while (play again === `yes`)
+//}
+
+
+
+
+
