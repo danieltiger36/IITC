@@ -50,7 +50,25 @@ console.log("hello")
 //console.log(play again)
 //while (play again === `yes`)
 //}
-
+///practice q1
+let favFood = ["pizza","watermelon","apple", "hamburger", "steak"]
+///q2
+console.log(favFood[2]);
+///q3
+favFood[1] = "fries";
+///q4
+favFood.push("rice");
+///q5
+favFood.shift([0])
+///6
+for (let i = 0; i < Number.length; i++) {
+    console.log(favFood);
+}
+///q7
+favFood = favFood.indexOf("steak");
+console.log(`index of ${favFood}`);
+///q8
+let numbers = [1,2,3,4,5]
 
 
 
