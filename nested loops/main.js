@@ -1,4 +1,4 @@
-//q8
+//q6
 function printPyramid() {
     let row = "";
   for (let i = 1; i <= 5; i++) {
