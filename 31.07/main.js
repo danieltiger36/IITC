@@ -84,7 +84,7 @@ console.log("hello");
 // for (let i = 0; i < carKeys.length; i++) {
 //     console.log(carKeys[i]);;
 //     console.log(car[carKeys[i]]);
-// };
+// // };
 // //q7
 // let person = {
 //     name: "daniel",
