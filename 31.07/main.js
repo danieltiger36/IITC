@@ -94,3 +94,13 @@ console.log("hello");
 // //q8
 // personKeys = Object.keys(person);
 // console.log(personKeys);
+
+
+///////////loops//////////////
+
+// //q1
+// for (let i = 1; i<=5; i++)
+//     console.log(i);
+// for (let i = 0; i <=9; i++)
+//     console.log(i);
+// //q3
