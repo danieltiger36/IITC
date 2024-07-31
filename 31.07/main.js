@@ -57,7 +57,7 @@ console.log("hello");
 //exre 1-5 done
 
 
-//q1 pt
+// //q1 pt
 // let car = {
 //     make:"toyota",
 //     model:"corola",
@@ -76,9 +76,9 @@ console.log("hello");
 // car.year = 2024;
 // //q4 
 // car.color = "blue";
-//q5
+// q5
 
-//q6
+// q6
 // let carKeys = Object.keys(car);
 // console.log(carKeys);
 // for (let i = 0; i < carKeys.length; i++) {
