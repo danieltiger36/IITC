@@ -1,3 +1,4 @@
+/*
 //q6
 function printPyramid() {
     let row = "";
@@ -63,3 +64,28 @@ function arrid(nestedarray){
 
 }
 arrid(array2d);
+//q11
+function isPalinrom (str) {
+    let length = str.length
+for (let i = 0; i < str.length; i++) {
+    //console.log(str[i]);
+    for (let j = 0; j < 1; j++){
+        if (str[i] !== str[length - 1 - i]) 
+            return false
+    }
+}
+return true
+}
+
+console.log (isPalinrom("natan"));
+*/
+
+
+//objects
+//let person = {
+   // name: "daniel",
+   // age: 20,
+   // city: "kfar saba"
+//};
+
+//console.log(person);
