@@ -62,7 +62,14 @@ isWild:true
 // console.log(3,4);
 //}
 //e3
+// function raTriangle(){
+// for (let i = 0; i <=3; i++) {
+//     let row = "";
+//     for (let j = 1; j <= i; j++) {
+//         row += "* "; 
+//     }
+//     console.log(row);
+//  } 
+// }
 
-
-
-
+// raTriangle();
