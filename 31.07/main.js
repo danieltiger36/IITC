@@ -103,4 +103,15 @@ console.log("hello");
 //     console.log(i);
 // for (let i = 0; i <=9; i++)
 //     console.log(i);
-// //q3
+// //q11
+// let stars = ""
+// for (let i = 1; i <=5; i++) {
+//  stars+= "*";
+// };
+// console.log(stars);
+//q12
+let greeting = "";
+for (let i = 0; i <3; i++){
+    greeting = "Hello"
+    console.log(greeting);
+}
