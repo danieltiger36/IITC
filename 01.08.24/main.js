@@ -74,14 +74,32 @@
 
 // raTriangle();
 //e6
-function multipleTable (){
+// function multipleTable (){
 
-    for (let i = 1; i <=3; i++) {
-        let row = " ";
-        for (let j = 1; j <=3; j ++)
-            row += (i*j)
-        console.log(row);
-    }
+//     for (let i = 1; i <=3; i++) {
+//         let row = " ";
+//         for (let j = 1; j <=3; j ++)
+//             row += (i*j)
+//         console.log(row);
+//     }
  
-}
-multipleTable();
+// }
+// multipleTable();
+//e6
+// function stars(){
+// for (let i = 1; i <= 3; i ++){
+//     let row = " ";
+//     for (let j = 1; j <=3; j ++)
+//        row += "*"
+//  console.log(row);
+//     }
+// }
+
+// stars();
+
+//e7
+
+
+
+
+
