@@ -11,37 +11,37 @@
 // }
 ///////////////////////
 //e1
-let person = {
-    name:"daniel",
-    age:20,
-    isStudent:true
-}
-console.log(person.name, person.age);
-person.isStudent = false;
-console.log(person);
-//e2
-let car = {
-    make:"fiat",
-    model:"500",
-    year:2020
-}
-console.log(car.make , car.model);
-car.year = 2024
-console.log(car);
-let fruit = {
-    name:"mango",
-    color:"yellow",
-    sweetnes:7
-}
-console.log(fruit.name, fruit.sweetnes);
-fruit.color = "green";
-console.log(fruit);
-//e5
-let animel = {
-species:"cow",
-sound:"moo",
-isWild:true
-}
+// let person = {
+//     name:"daniel",
+//     age:20,
+//     isStudent:true
+// }
+// console.log(person.name, person.age);
+// person.isStudent = false;
+// console.log(person);
+// //e2
+// let car = {
+//     make:"fiat",
+//     model:"500",
+//     year:2020
+// }
+// console.log(car.make , car.model);
+// car.year = 2024
+// console.log(car);
+// let fruit = {
+//     name:"mango",
+//     color:"yellow",
+//     sweetnes:7
+// }
+// console.log(fruit.name, fruit.sweetnes);
+// fruit.color = "green";
+// console.log(fruit);
+// //e5
+// let animel = {
+// species:"cow",
+// sound:"moo",
+// isWild:true
+// }
 ////////////////////////
 //easy nested loops
 //e1
@@ -73,3 +73,15 @@ isWild:true
 // }
 
 // raTriangle();
+//e6
+function multipleTable (){
+
+    for (let i = 1; i <=3; i++) {
+        let row = " ";
+        for (let j = 1; j <=3; j ++)
+            row += (i*j)
+        console.log(row);
+    }
+ 
+}
+multipleTable();
