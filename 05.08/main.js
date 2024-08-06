@@ -31,13 +31,14 @@
 // }
 //e4
 
-for (let i = 1; i<4; i++){
-    let row = ""
-    let count = 0;
-    for (let j = 1; j <4; j++){
-    row += i*j + " ";
-    count += j*i;
+// for (let i = 1; i<4; i++){
+//     let row = ""
+//     let count = 0;
+//     for (let j = 1; j <4; j++){
+//     row += i*j + " ";
+//     count += j*i;
     
-    }
-    console.log(row,"total sum", count);
-}
+//     }
+//     console.log(row,"total sum", count);
+// }
+//e5
