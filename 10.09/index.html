@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; 
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    position: absolute;
+    top: 50px; 
+    left: 0;
+    width: 230px;
+    background-color: #494a84;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    bottom: 0;
+
+}
+
+.content {
+    margin-left: 220px; 
+    padding: 20px;
+    position: relative; 
+    background-color: #793c3c;
+    flex: 1; 
+    overflow-y: auto; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #a5b11a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000; 
+}
+
+.floating-button:hover {
+    background-color: #0056b3;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <p>Sidebar</p>
+        </aside>
+        <main class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nesciunt architecto harum error porro? Eius qui dolor ea nihil molestias, necessitatibus itaque nobis, inventore, culpa minus sunt ad laboriosam aut!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, velit! Iusto magni tempora facilis vero, doloremque saepe recusandae velit atque magnam architecto impedit quae ullam, sunt aut, vel perspiciatis nobis?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsum veritatis consectetur laborum vel ducimus adipisci, aut fugit alias maxime fugiat reiciendis aliquid iste accusamus voluptatibus dicta cupiditate odio earum?</p>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, debitis est quibusdam molestias cumque obcaecati, reprehenderit quaerat iure non aperiam blanditiis dignissimos odio incidunt corrupti vitae velit quo. Expedita, quisquam.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe sit eius vero, repudiandae nulla blanditiis nostrum voluptates, culpa ducimus dolorum deserunt quidem asperiores! Reprehenderit molestiae vitae accusamus, aliquam illum mollitia!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nesciunt architecto harum error porro? Eius qui dolor ea nihil molestias, necessitatibus itaque nobis, inventore, culpa minus sunt ad laboriosam aut!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, velit! Iusto magni tempora facilis vero, doloremque saepe recusandae velit atque magnam architecto impedit quae ullam, sunt aut, vel perspiciatis nobis?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsum veritatis consectetur laborum vel ducimus adipisci, aut fugit alias maxime fugiat reiciendis aliquid iste accusamus voluptatibus dicta cupiditate odio earum?</p>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, debitis est quibusdam molestias cumque obcaecati, reprehenderit quaerat iure non aperiam blanditiis dignissimos odio incidunt corrupti vitae velit quo. Expedita, quisquam.</p> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique esse eius optio mollitia velit ipsum voluptatem animi rerum illo dicta earum laudantium officiis placeat tempora hic, nemo enim facilis ipsa?</p>
+        </main>
+    </div>
+    <footer>
+        <p>Footer</p>
+    </footer>
+    <a href="https://www.youtube.com/?hl=iw">
+    <button class="floating-button">youtube button!</button>
+    </a>
+</body>
+</html>
+
