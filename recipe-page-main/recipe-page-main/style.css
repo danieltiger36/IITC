@@ -12,7 +12,7 @@ body {
   .container {
     width: 50vw;
     background-color: #ffffff;
-    border-radius: 15px;
+    border-radius: 7px;
     padding: 20px;
   }
 
@@ -21,20 +21,52 @@ body {
     border-radius: 15px;
   }
   h1 {
-    font-size: 22px;
-    
+    font-family: 'Young Serif', serif; 
+    font-size:x-large;
+    font-weight: 700; 
   }
+
   p {
     font-size: 16px;
   }
   
   #preparation {
-    background-color:plum;
+    background-color:rgb(248, 234, 248);
+    border-radius: 7px;
+    padding: 7px;
   }
 
   table {
+    border-collapse: collapse;
     width: 100%;
   }
   .qtt {
     color: brown;
   }
+
+  h2 {
+    color: Brown;
+    font-family: 'Young Serif', serif; 
+    font-size:x-large;
+    font-weight: 600; 
+  }
+
+  h3 {
+    color:#9e2258;
+  }
+
+  ol li::marker {
+    color:brown;
+}
+
+ul li::marker {
+  color: brown;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  padding: 8px; 
+}
